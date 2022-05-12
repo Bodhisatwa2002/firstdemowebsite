@@ -1,0 +1,56 @@
+  body {
+    background-color: #EAF6F6;
+  }
+  hr{
+    height: 3px;
+    width: 5%;
+    border-style: dotted;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-style:none;
+    border-width: 5px;
+    border-color: black;
+  }
+
+  h1{
+    color: #77ACF1;
+  }
+  h2
+  {
+    color: #77ACF1;
+  }
+  h3{
+    color: #77ACF1;
+  }
+
+
+  button:hover {color:red;}
+  button:link {color:purple;}
+
+  h1:hover {background: #FFE400;}
+
+  a:link { color: blue; }          /* Unvisited links */
+  a:visited { color: purple; }     /* Visited links */
+  a:hover { background: yellow; }  /* Hovered links */
+  a:active { color: red; }         /* Active links */
+
+
+
+
+/*****************************CLASS SELECTORS*************************************/
+.photo1 {
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 50px 20px 30px 40px;
+}
+.Heading{
+  color: red;
+}
+
+.contactcss {
+  font-family:"Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+
+}
